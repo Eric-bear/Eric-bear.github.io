@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo - Eric</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!--Area dedicada para o menu de escolhas das areas do website, contem o id usado para identificar sua posição-->
+    <div id="header">
+
+        <div id="titulo">
+            <h1>Currículo Eric Teixeira Martins</h1>
+        </div>
+    
+        <ul class="menu">
+            <a href="#sobre" id="linksobre">Sobre Mim</a>
+            <a href="#formacao" id="linkformacao">Formação</a>
+            <a href="#portifolio" id="linkportifolio">Portifólio</a>
+            <a href="#contato" id="linkcontato">Contato</a>
+        </ul>
+    </div>
+
+<!-- Area "sobre" possui um paragrafo com uma breve introdução minha -->   
+    <div class="secao">
+        <section class="off" id="sobre">
+            <h2>Seção sobre:</h2>
+            <br>
+            <p>Meu nome é Eric tenho 22 anos moro em Boa Esperança MG, estou cursando a faculdade de Ciências da computação na Uninter,<br> no momento trabalho numa sorveteria. Meus hobbies consistem em jogar jogos como Persona 5 royal, Overwatch, etc.<br> Também gosto de fazer crochê desde tapetes a amigurumis(Bichinos de pelucia)</p>
+        </section>    
+
+<!--area de "Formação" possui minhas qualificações e dois links que respectivamente redireciona a meu diploma e o outro a faculdade na qual estudo*-->        
+        <section class="off" id="formacao"> 
+            <h2>Formações</h2>
+            <ol>
+                <li>Ensino médio completo</li>
+                <li>Curso de assistente de RH IFSULDEMINAS</li>
+                <li>Curso de atendente de fármacia UNICESUMAR</li>
+                <li>Inglês fluente nivel C2 EF SET <a href="https://cert.efset.org/HqGSWR">Certificado</a></li>
+                <li>Cursando Ciências de computação na <a href="https://www.uninter.com/">Uninter</a></li>
+            </ol>
+        </section>
+
+<!--Area dedicada a meus trabalhos..... por enquanto vazia -->
+        <section class="off" id="portifolio">
+            <h2>Portifólio</h2>
+            <p>Nenhum Trabalho disponivel no momento</p>
+        </section>
+
+<!--area dedicada a "contato" carrega os inputs que por vez são validados pelo java script-->       
+        <section class="off" id="contato">
+            <h2>Área de contato</h2>
+                <table> 
+                    <tr>
+                        <th><label for="nome">Nome:</label></th>
+                        <td><input type="text" name="nome" id="nome"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="email">E-mail:</label></th>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="msg">Digite sua Mensagem:</label>
+                        </th>
+                        <td><textarea name="msg" rows="5" cols="40" >Digite sua mensagem</textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <th><button id="botao">Enviar</button></th>
+                    </tr>
+                </table>    
+        </section>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
